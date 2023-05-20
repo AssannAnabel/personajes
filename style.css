@@ -1,0 +1,33 @@
+
+body{
+    background-color: rgb(230, 115, 20);
+}
+h1{
+    text-align: center;
+    color: rgb(46, 45, 45);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size:x-large,15px;
+    
+
+}
+#img{
+    display:flex;
+    border-radius: black solid 8px;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-color:rgb(230,115,20);
+   
+    
+}
+
+img{
+    width: 18%;
+    margin: 8px;
+    filter:drop-shadow(4px 6px 8px rgb(10, 10, 10));
+    border-radius:8px;  
+    transition:transform 0.5s;
+}
+img:hover{
+    transform: scale(1.1);
+}
